@@ -1,0 +1,12 @@
+{
+    "about": {
+        "title": "Hola, soy",
+        "name": "Jhon Steven Saavedra",
+        "branch": "Desarrollador Front-end",
+        "info": "Soy desarrollador web, en esta rama me destaco en desarrollo front-end, actualmente vivo en Colombia, ",
+        "work": "trabajo como Analista Junior en Woombat Consulting Group.",
+        "subinfo": "Fuera del desarrollo web soy una persona a la que le gusta la música, sé tocar el piano y me gusta el diseño gráfico."
+    },
+    "scroll": "Desplaza hacia abajo",
+    "titleweb": "El Rancho de Jhon"
+}

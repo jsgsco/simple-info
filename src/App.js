@@ -1,25 +1,20 @@
-import logo from './logo.svg';
-import './App.css';
+import { Helmet } from 'react-helmet';
+import Header from './components/Header';
+import Icons from './components/Icons';
+import { Container } from './components/style/Container';
+import { useTranslation } from 'react-i18next';
 
-function App() {
+export default function App () {
+
+  const { t } = useTranslation('global');
+  
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+    <Container fluid>
+      <Helmet>
+        <title>{t('titleweb')}</title>
+      </Helmet>
+      <Icons />
+      <Header />
+    </Container>
+  )
 }
-
-export default App;
